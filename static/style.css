@@ -321,3 +321,17 @@ ul {
         left: 0;
     }
 }
+
+.project-content h2 {
+    border-bottom: 2px solid royalblue;
+}
+
+h3 {
+    color: royalblue;
+}
+
+.img-caption {
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #575c65;
+}
