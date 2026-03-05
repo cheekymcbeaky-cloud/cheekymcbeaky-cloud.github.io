@@ -41,13 +41,13 @@
             <h2>Project Overview</h2>
             <p>For my advanced A-Level Design and Technology coursework, I undertook a comprehensive 40+ hour
                 engineering project to solve a complex problem within the live events industry. Working directly with a
-                real-world client, I designed, programmed, and manufactured a bespoke, integrated "Hybrid" Lighting Desk
+                real-world client, I designed, programmed, and manufactured a bespoke, integrated 'Hybrid' Lighting Desk
                 that bridges the gap between affordable software and professional physical hardware.
             </p>
 
             <img class="portfolio-img" src="../images/final_desk_front_view.jpg"
                 alt="Front view of the finished hybrid lighting desk">
-            <div class="img-caption">The finalized Hybrid Lighting Desk featuring custom electronics, machined aluminum,
+            <div class="img-caption">The finalised Hybrid Lighting Desk featuring custom electronics, machined aluminum,
                 and Oak-veneered MDF.</div>
 
             <h2>Identifying the Problem</h2>
@@ -100,7 +100,7 @@
             <h2>Electronics Engineering and Prototyping</h2>
             <h3>The Brains: Arduino MIDI Controllers</h3>
             <p>To handle the physical inputs, I selected two Arduino Leonardo microcontrollers.
-                These specific boards are excellent because they can be programmed to be recognized by a computer as
+                These specific boards are excellent because they can be programmed to be recognised by a computer as
                 native USB interface devices. I designed an array consisting of 20 digital push buttons, 5
                 rotary potentiometers, and 5 linear potentiometers (sliders).</p>
 
@@ -113,16 +113,16 @@
             <h3>The Output: Overcoming the DMX Hardware Challenge</h3>
             <p>Translating the computer's USB output into the DMX 512 standard was one of the most challenging aspects
                 of the project. I initially purchased a pre-made USB-to-RS485 conversion chip online, but
-                upon testing it with a logic analyzer, it completely failed to communicate with the lights.
+                upon testing it with a logic analyser, it completely failed to communicate with the lights.
                 After deep research on engineering forums, I discovered I had been sold a counterfeit
                 chip from China that lacked the processing speed for DMX.</p>
 
             <p>Instead of giving up, I engineered my own converter from scratch. Using schematics sourced
-                from USBDMX.com, I breadboarded an entirely new circuit utilizing an FTDI chip, a genuine MAX485 driver,
+                from USBDMX.com, I breadboarded an entirely new circuit utilising an FTDI chip, a genuine MAX485 driver,
                 and a 6N137 Opto-Isolator. The opto-isolation was a critical safety
                 feature I added to ensure that if a massive power surge occurred in the stage lighting grid, it could
                 not travel backward through the USB cable and destroy the user's laptop. I
-                soldered this finalized circuit onto a permanent Vero board.</p>
+                soldered this finalised circuit onto a permanent Vero board.</p>
 
             <img class="portfolio-img" src="../images/breadboard_testing.jpg"
                 alt="Testing the DMX and Arduino circuits on a breadboard">
@@ -135,14 +135,14 @@
                 reach all controls comfortably without straining, the desk needed a maximum depth of 40cm and an incline
                 angle of between 10 to 15 degrees.</p>
 
-            <p>For the aesthetic form, I drew inspiration from the "Streamline Moderne" movement of the
+            <p>For the aesthetic form, I drew inspiration from the 'Streamline Moderne' movement of the
                 1940s and 1950s, as well as angular modern designs like the Tesla Cybertruck.
                 I developed a sleek, wedge-shaped chassis with sides that taper inward at a 20-degree angle,
                 giving it an aerodynamic, futuristic look.</p>
 
-            <p>Using User-Centered Design principles, I realized that just placing a laptop next to the controller was
+            <p>Using User-Centered Design principles, I realised that just placing a laptop next to the controller was
                 messy. I redesigned the top of the chassis to include a recessed tray perfectly sized for a
-                standard 15-inch laptop. I engineered an "anti-slip bar" just below the
+                standard 15-inch laptop. I engineered an 'anti-slip bar' just below the
                 laptop tray, which serves a dual purpose: it prevents the laptop from sliding down the 15-degree
                 incline, and it features hidden routed channels to perfectly manage the USB cables.
             </p>
@@ -165,7 +165,7 @@
                 bandsaw with an angled miter gauge to cut the 20-degree inward slopes and the 30-degree front/back
                 slopes.</p>
 
-            <p>To assemble the shell without ugly visible screws, I utilized hidden dowel joints and PVA
+            <p>To assemble the shell without ugly visible screws, I utilised hidden dowel joints and PVA
                 wood glue, clamping the entire structure under heavy weights overnight to cure.
                 Once dried, I used a chisel, a router plane, and an oscillating saw to carefully cut out the
                 rear housing slot for the modular DMX box, and applied iron-on oak veneer strips to hide any exposed raw
@@ -185,7 +185,7 @@
                 strips, attaching them with contact adhesive.</p>
 
             <p>For maintainability, the USB-DMX circuit is housed in its own modular, removable box made of
-                laser-cut black acrylic utilizing precise finger joints. This allows the output module
+                laser-cut black acrylic utilising precise finger joints. This allows the output module
                 to be swapped out or upgraded in the future without rebuilding the whole desk.</p>
 
             <h3>Metal Machining and 3D Printing</h3>
