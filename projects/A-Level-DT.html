@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Henry's Portfolio - Hybrid Lighting Desk </title>
+    <title> Henry's Portfolio</title>
     <link rel="stylesheet" href="../static/style.css" id="colour">
 </head>
 
@@ -42,11 +42,13 @@
             <p>For my advanced A-Level Design and Technology coursework, I undertook a comprehensive 40+ hour
                 engineering project to solve a complex problem within the live events industry. Working directly with a
                 real-world client, I designed, programmed, and manufactured a bespoke, integrated 'Hybrid' Lighting Desk
-                that bridges the gap between affordable software and professional physical hardware.
+                that bridges the gap between affordable software and professional physical hardware. My full writeup can
+                be seen <a href="../files/DT_A-Level_coursework.pdf" target="_blank">here</a>.
             </p>
 
-            <img class="portfolio-img" src="../images/final_desk_front_view.jpg"
-                alt="Front view of the finished hybrid lighting desk">
+            <img class="portfolio-img" src="../images/A-Level_DT/final_desk_front_view.png"
+                alt="Front view of the finished hybrid lighting desk"
+                style="width: 80%; max-width: 800px; height: auto; display: block; margin: 20px auto;">
             <div class="img-caption">The finalised Hybrid Lighting Desk featuring custom electronics, machined aluminum,
                 and Oak-veneered MDF.</div>
 
@@ -67,7 +69,7 @@
             <p>Professional lighting desks that can handle this complexity cost tens of thousands of pounds.
                 There is free, highly capable software available (such as Freestyler) that runs on a laptop
                 and uses an easy visual interface. However, trying to run a fast-paced live show
-                by clicking a computer mouse is slow, frustrating, and lacks the sensitivity of physical sliders. 
+                by clicking a computer mouse is slow, frustrating, and lacks the sensitivity of physical sliders.
                 The problem was clear: <strong>How could I combine the visual ease and massive
                     capacity of laptop software with the tactile, real-time control of a physical lighting
                     desk?</strong>.</p>
@@ -85,15 +87,16 @@
                 <li><strong>MIDI (Musical Instrument Digital Interface):</strong> I needed to build a
                     circuit that could read the physical movement of sliders and buttons, convert that data into MIDI
                     signals, and send it via USB into the laptop software.</li>
-                    <br>
+                <br>
                 <li><strong>DMX 512 (Digital Multiplex):</strong> Stage lights speak a language called DMX,
                     which runs on an RS485 electrical standard. I needed to build a
                     secondary circuit that takes the software's output from the laptop's USB and converts it into a DMX
                     signal that plugs into the theatre's lighting rig.</li>
             </ul>
 
-            <img class="portfolio-img" src="../images/electronics_schematic.jpg"
-                alt="System architecture diagram showing MIDI and DMX flow">
+            <img class="portfolio-img" src="../images/A-Level_DT/system_architecture.png"
+                alt="System architecture diagram showing MIDI and DMX flow"
+                style="width: 80%; max-width: 1200px; height: auto; display: block; margin: 20px auto;">
             <div class="img-caption">System architecture: Inputs (sliders/buttons) convert to MIDI via Arduino, process
                 through the laptop, and output to DMX via a custom RS485 circuit.</div>
 
@@ -124,9 +127,10 @@
                 not travel backward through the USB cable and destroy the user's laptop. I
                 soldered this finalised circuit onto a permanent Vero board.</p>
 
-            <img class="portfolio-img" src="../images/breadboard_testing.jpg"
-                alt="Testing the DMX and Arduino circuits on a breadboard">
-            <div class="img-caption">Prototyping and soldering the custom USB-DMX isolation circuit after the
+            <img class="portfolio-img" src="../images/A-Level_DT/breadboard.png"
+                alt="Testing the USB-DMX isolation circuit on a breadboard"
+                style="width: 80%; max-width: 500px; height: auto; display: block; margin: 20px auto;">
+            <div class="img-caption">Prototyping the custom USB-DMX isolation circuit after the
                 counterfeit chip failure.</div>
 
             <h2>Industrial Design and Ergonomics</h2>
@@ -147,10 +151,10 @@
                 incline, and it features hidden routed channels to perfectly manage the USB cables.
             </p>
 
-            <img class="portfolio-img" src="../images/cad_render_desk.jpg"
-                alt="CAD design showing the laptop tray and angular sides">
-            <div class="img-caption">SolidWorks CAD rendering showing the 20-degree inward tapering sides and the
-                recessed laptop holding tray.</div>
+            <img class="portfolio-img" src="../images/A-Level_DT/orthographic_drawings.png"
+                alt="CAD design showing the lighting desk design"
+                style="width: 80%; max-width: 1000px; height: auto; display: block; margin: 20px auto;">
+            <div class="img-caption">CAD rendering showing the proposed design for the lighting desk.</div>
 
             <h2>The Manufacturing Journey</h2>
             <p>Building the chassis required combining traditional woodworking with modern digital fabrication
@@ -173,9 +177,10 @@
                 and treated with Osmo PolyX oil, which protects it from the dust and liquid spills common in theatre
                 lighting boxes.</p>
 
-            <img class="portfolio-img" src="../images/woodworking_assembly.jpg"
-                alt="Gluing and clamping the angled MDF panels">
-            <div class="img-caption">Gluing and clamping the compound angles of the Oak-veneered MDF chassis.</div>
+            <img class="portfolio-img" src="../images/A-Level_DT/gluing.png"
+                alt="Gluing and clamping the angled MDF panels"
+                style="width: 80%; max-width: 250px; height: auto; display: block; margin: 20px auto;">
+            <div class="img-caption">Gluing and clamping the angled panels of the Oak-veneered MDF chassis.</div>
 
             <h3>Laser Cutting and Acrylics</h3>
             <p>The control panel needed to be made of an electrical insulator to safely house the circuitry.
@@ -198,22 +203,23 @@
             <p>For the fader caps, I modeled custom ergonomic shapes in CAD and 3D printed them using
                 Eco-ABS (a recycled thermoplastic), hot-gluing them to the linear potentiometers.</p>
 
-            <img class="portfolio-img" src="../images/lathe_knurling.jpg"
-                alt="Using the center lathe to knurl the aluminum knobs">
-            <div class="img-caption">Machining, knurling, and tapping custom aluminum thumbscrews on the center lathe.
-            </div>
+            <img class="portfolio-img" src="../images/A-Level_DT/knobs.png"
+                alt="The 4 knobs after being cut with a parting off tool"
+                style="width: 80%; max-width: 250px; height: auto; display: block; margin: 20px auto;">
+            <div class="img-caption">The 4 thumbscrews after being parted off.</div>
 
             <h2>Final Assembly and Soldering</h2>
             <p>The final assembly was a massive undertaking in wire management. I mounted the 20 push
                 buttons and 10 potentiometers into the purple acrylic plate. Using a soldering
                 iron, I carefully stripped, tinned, and soldered common ground wires across all 30 components.
                 I then routed dozens of data ribbons, connecting every single switch and fader to the
-                correct digital and analog pins on the two Arduino Leonardos hidden inside the chassis. 
+                correct digital and analog pins on the two Arduino Leonardos hidden inside the chassis.
                 Once the wiring was secured with heat shrink tubing, I secured the panel down using
                 my custom machined aluminum knobs.</p>
 
-            <img class="portfolio-img" src="../images/soldering_internals.jpg"
-                alt="Complex wiring of the MIDI buttons to the Arduino">
+            <img class="portfolio-img" src="../images/A-Level_DT/soldering.png"
+                alt="Complex wiring of the MIDI buttons to the Arduino"
+                style="width: 80%; max-width: 500px; height: auto; display: block; margin: 20px auto;">
             <div class="img-caption">Hand-soldering the data and ground ribbons for 30 distinct analog and digital
                 inputs.</div>
 
@@ -223,7 +229,7 @@
                 £850 retail cost of comparable mid-tier digital desks, and even cheaper than hiring a desk for a single
                 night.</p>
 
-            <p>The ultimate test of the prototype took place at the school's live Spring Concert. 
+            <p>The ultimate test of the prototype took place at the school's live Spring Concert.
                 I brought the desk into the lighting box, docked the laptop, and connected the custom
                 DMX-output box to the school's lighting truss. The hybrid system performed flawlessly.
                 I was able to use the software to assign complex cues to my physical buttons, allowing me to
@@ -235,6 +241,11 @@
                 bottlenecks. By open-sourcing this design in the future, other schools and
                 community theaters could build their own versions, completely bypassing the massive costs and built-in
                 obsolescence of the commercial stage lighting industry.</p>
+
+            <img class="portfolio-img" src="../images/A-Level_DT/testing.png"
+                alt="Me sat testing the finished lighting desk"
+                style="width: 80%; max-width: 400px; height: auto; display: block; margin: 20px auto;">
+            <div class="img-caption">Testing the final lighting desk.</div>
 
             <br><br>
             <form action="/projects.html" method="GET">
