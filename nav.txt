@@ -1,0 +1,18 @@
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="hamburger">☰</label>
+<div class="nav-links">
+    <div class="nav-text-links">
+        <a href="/about.html">About Me</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/university-modules.html">University Modules</a>
+        <a href="/CV.html">CV</a>
+    </div>
+    <div class="nav-social-container">
+        <a href="https://www.linkedin.com/in/henrybishop512/" target="_blank">
+            <img src="/images/LinkedIn.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/cheekymcbeaky-cloud" target="_blank">
+            <img src="/images/GitHub.svg" alt="GitHub">
+        </a>
+    </div>
+</div>
