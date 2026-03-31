@@ -98,7 +98,8 @@ button:hover {
 
 h1 {
     color: #E8EDF3;
-    font-size: 45px;
+    font-size: clamp(28px, 6vw, 45px);
+    word-break: break-word;
 }
 
 #buttons {
