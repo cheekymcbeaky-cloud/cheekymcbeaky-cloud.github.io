@@ -36,13 +36,7 @@
             <h2>Engineering Artifact - Water Monitoring System</h2>
 
             <p>
-                For the engineering artifact, we were placed into teams and I was tasked with being the team communications
-                lead. The task we were given was to creating a water blockage detection system. This project was a
-                response to a professional brief from Network Rail to develop a robust, retrofit monitoring system for
-                culverts. The client required a reliable and cost-effective method to track water levels and detect
-                debris in hard-to-reach drainage areas to prevent critical infrastructure failure. The task demanded a
-                resilient, low-maintenance solution capable of operating in harsh, confined environments to provide
-                real-time data without the need for constant manual intervention.
+                For the engineering artefact, we were placed into teams, and I was given the role of the team’s communications lead. The client, Network Rail, then set us a problem. The task was to design a culvert blockage detection and warning system to identify when a blockage was restricting water flow. Network Rail currently have the issue of having to rely on cameras and site inspections to check culverts, which can lead to flooding that affects the railway track. Because of this, the client wanted a cost effective, low maintenance sensor system that could work in hard to reach areas and under harsh conditions. The system also needed to provide real time data and clear warning messages. 
             </p>
 
             <img src="../images/21st_Century_Engineer/water_system.png" alt="The finalised water system"
@@ -50,23 +44,11 @@
             <div class="img-caption">The finished prototype water monitoring system</div>
 
             <p>
-                The system was designed to be mounted to the vast majority of culvert with fully adjustable brackets.
-                The idea we came up with as a team was to have 2 ultrasonic sensors - one before
-                and one after, as well as a microcontroller to compare the difference in the water levels. It would then
-                calculate if there was a large difference in level. If there was, a picture would be taken through a
-                camera (with an LED for light). This would then send a message through an email or a website to warn
-                Network Rail of a blocked culvert. The system would be enclosed in a sealed platic pipe to allow for
-                full waterproofing and protection. I would have a vent plug to allow for even pressure and the opening
-                would be sealed for full waterproofing. The system would be powered with a trackside power supply cable
-                through a transformer.
+               The system we designed needed to be mountable to the majority of culverts using adjustable brackets. It also needed to be tough against water and impacts, able to last a long time without much maintenance, easy long lasting power solution. It would also need to send simple warning messages and allow easy access to real time data. To achieve this, our team decided to monitor the water levels before and after the culvert. If there was a noticeable difference between the two levels, this would indicate a blockage. Ideally, a second method would be used to confirm this, such as a high level water switch. We also discussed having a website that could show live water levels, along with an email or text message warning system.
             </p>
 
             <p>
-                Creating this water monitoring system involved working with the Raspberry Pi Pico microcontroller and
-                sensor. The Pi was going to be a Pico 2 W but this was unavailable so the website idea was not
-                used. Instead, we used a Pico and connected the 2 ultrasonic sensors. The camera unfortunatley was
-                unable to be used but placed in the theory of operation. The microcontroller was then coded and tested
-                to evaluate its effectiveness.
+                After several meetings and discussions with the client, the final idea we came up with was to use two ultrasonic sensors, one positioned before the culvert and one within. These would be connected to a Raspberry Pi , which would compare the water levels. If the difference was above a set limit, a camera with an LED light would take a photo of the culvert. An email would then be sent to Network Rail to warn them of the blockage. The system would be enclosed inside a sealed plastic pipe to provide protection and waterproofing. A vent plug would be used to allow pressure equalisation. Power would be supplied using a trackside power cable connected to a step down transformer.
             </p>
 
             <img src="../images/21st_Century_Engineer/water_system_electronics.png"
@@ -75,12 +57,16 @@
             <div class="img-caption">Connecting the electronic components</div>
 
             <p>
-                The electrical components were all placed neatly into the prototyope and sealed within.
+                As a team, we created a final design for our prototype and ordered the required parts. The following week, we started the production of the prototype; however, we had to make some last minute changes to the design. The plastic piping did not arrive on time, so we used wood instead. We were also unable to obtain a suitable Raspberry Pi 5, so we used a Raspberry Pi Pico instead. As this was only a prototype, it was powered using a laptop. Our final prototype consisted of a square wooden case with 3D printed end caps and a vent plug. The attachment bracket included two adjustable metal brackets, allowing it to be mounted onto a wide range of bars. The camera and LED light were placed inside the case, with a hole cut and sealed using clear acrylic. The two ultrasonic sensors were then positioned and glued into place, after which the code was uploaded to the Pico.
             </p>
 
             <img src="../images/21st_Century_Engineer/water_system_inside.png" alt="The wiring inside the water system"
                 style="width: 80%; max-width: 500px; height: auto; display: block; margin: 20px auto;">
             <div class="img-caption">The electronic components inside the water monitoring system</div>
+
+            <p>
+                We then showed the prototype to the client and took their feedback. As part of our reflection as a team, we decided that future iterations of the design should focus on making the system easier to attach to culverts and more robust against harsh environmental conditions. We also agreed that parts should be ordered earlier in the project and that the correct components should be sourced to fully carry out the design of our system. Overall, the prototype was a success.
+            </p>
 
             <form action="/university-modules.html" method="GET">
                 <button type="submit">Back to all Modules</button>
