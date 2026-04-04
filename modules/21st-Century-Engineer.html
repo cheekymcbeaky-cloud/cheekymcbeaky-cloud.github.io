@@ -47,7 +47,12 @@
                The system we designed needed to be mountable to the majority of culverts using adjustable brackets. It also needed to be tough against water and impacts, able to last a long time without much maintenance, easy long lasting power solution. It would also need to send simple warning messages and allow easy access to real time data. To achieve this, our team decided to monitor the water levels before and after the culvert. If there was a noticeable difference between the two levels, this would indicate a blockage. Ideally, a second method would be used to confirm this, such as a high level water switch. We also discussed having a website that could show live water levels, along with an email or text message warning system.
             </p>
 
-            <p>
+              <img src="../images/Screenshot 2026-04-04 183923.png" alt="The finalised water system"
+                style="width: 80%; max-width: 400px; height: auto; display: block; margin: 20px auto;">
+            <div class="img-caption">Exarmple of blocked culvert</div>
+
+
+             <p>
                 After several meetings and discussions with the client, the final idea we came up with was to use two ultrasonic sensors, one positioned before the culvert and one within. These would be connected to a Raspberry Pi , which would compare the water levels. If the difference was above a set limit, a camera with an LED light would take a photo of the culvert. An email would then be sent to Network Rail to warn them of the blockage. The system would be enclosed inside a sealed plastic pipe to provide protection and waterproofing. A vent plug would be used to allow pressure equalisation. Power would be supplied using a trackside power cable connected to a step down transformer.
             </p>
 
@@ -56,7 +61,7 @@
                 style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto;">
             <div class="img-caption">Connecting the electronic components</div>
 
-             <img src="../images/Screenshot 2026-04-04 184315.png"
+             <img src="../images/Screenshot 2026-04-04 185251.png"
                 alt="Multiple components connected to a breadboard"
                 style="width: 80%; max-width: 600px; height: auto; display: block; margin: 20px auto;">
             <div class="img-caption">Connecting the electronic components</div>
